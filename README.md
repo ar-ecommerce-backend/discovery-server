@@ -1,6 +1,6 @@
 # discovery-server
 
-Netflix Eureka service registry for the [ar-ecommerce-platform](https://github.com/ar-ecommerce-platform).
+Netflix Eureka service registry for the [ar-ecommerce-backend](https://github.com/ar-ecommerce-backend).
 Every other service registers here; the gateway and `order-service` use it to resolve `lb://` addresses.
 
 - **Port:** 8761 — dashboard at http://localhost:8761
